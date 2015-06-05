@@ -15,7 +15,7 @@ The tool can be used only in Windows.
 The tool requires Python 3.4. You should also install the 'win32gui'.
 
 #Running the tool
-execute:
+###### Execute
 ```python host_check.pyw```
 
 ###### Single use
