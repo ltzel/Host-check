@@ -19,10 +19,10 @@ The tool requires Python 3.4. You should also install the 'win32gui'.
 ```python host_check.pyw```
 
 ###### Single use
-Set *mode = "single"* in the config.conf (default).
+Set *mode = "single"* in the config.conf (default). The winodws notification will display a *All servers are up* message if all servers respond. Alternatively, the winodws notification will display the servers that did not respond. 
 
 ###### Scheduler
-Set *mode = "scheduler"* in the config.conf.
+Set *mode = "scheduler"* in the config.conf. You can create a Windows task to run the tool automatically. *scheduler* mode will only display a Windows notification if any servers do not respond. The Winodws notification will not show a *All servers are up* message if all servers respond.
 
 #Configuration
 Add nodes in the *config.conf* file:
